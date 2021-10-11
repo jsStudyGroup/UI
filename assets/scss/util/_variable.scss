@@ -1,0 +1,12 @@
+:root {
+  --body-bg-color: rgb(27, 27, 27);
+  --body-color: rgb(107, 216, 74);
+}
+
+body {
+  transition: all 0.7s;
+}
+.mode-light {
+  --body-bg-color: white;
+  --body-color: rgb(0, 0, 0);
+}

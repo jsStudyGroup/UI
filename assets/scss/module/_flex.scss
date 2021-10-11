@@ -1,0 +1,15 @@
+.layout-flex {
+  @include flex($flex: none);
+}
+
+.layout-flex-full {
+  @include flex($flex: 1);
+}
+
+.layout-flex-between {
+  @include flex($x: space-between);
+}
+
+.layout-flex-column {
+  @include flex($direction: column);
+}
